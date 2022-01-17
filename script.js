@@ -1,4 +1,9 @@
  alert("Minedsのサービス、卒業までのカウントダウンをご利用いただきありがとうございます。\nほかの作品などもありますのでこちらからご覧ください。\nスクラッチのURL https://scratch.mit.edu/users/MindesSeartch/\nBy,Mineds")
+ const btnbtn = document.getElementById("RealtimeCountdownArea");
+ btnbtn.addEventListener("click",function(){
+document.getElementById("audioo").innerHTML =' <audio autoplay  src="music.mp3"></audio>';
+alert("SEKAINOOWARIメドレー\n幻の命\n虹色の戦争\n天使と悪魔\nファンタジー\n花鳥風月\n不死鳥\nNever Ending World\nスターライトパレード\n眠り姫\nRPG\nスノーマジックファンタジー\n炎と森のカーニバル\n5秒後に再生されます。")
+ })
   function set2fig(num) {
    // 数値が1桁だったら2桁の文字列にして返す
    var ret;
