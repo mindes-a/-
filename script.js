@@ -1,8 +1,7 @@
- alert("Minedsのサービス、卒業までのカウントダウンをご利用いただきありがとうございます。\nほかの作品などもありますのでこちらからご覧ください。\nスクラッチのURL https://scratch.mit.edu/users/MindesSeartch/\nBy,Mineds")
+ alert("Minedsのサービス、卒業までのカウントダウンをご利用いただきありがとうございます。\nほかの作品などもありますのでこちらからご覧ください。\nカウントダウンは、卒業式（３月２４日）までの日までの日にちを計算して求めています\n参考\n（https://www.nishishi.com/javascript-tips/realtime-countdown-deadline.html）")
  const btnbtn = document.getElementById("RealtimeCountdownArea");
  btnbtn.addEventListener("click",function(){
 document.getElementById("audioo").innerHTML =' <audio autoplay  src="music.mp3"></audio>';
-alert("SEKAINOOWARI\n幻の命\n5秒後に再生されます。")
  })
   function set2fig(num) {
    // 数値が1桁だったら2桁の文字列にして返す
@@ -24,8 +23,8 @@ function showCountdown() {
    // 指定日時を数値(1970-01-01 00:00:00からのミリ秒)に変換
    var inputYear  = 2022;
    var inputMonth = 3 - 1;
-   var inputDate  = 4;
-   var inputHour  = 12;
+   var inputDate  = 24;
+   var inputHour  = 9;
    var inputMin   = 00;
    var inputSec   = 00;
    var targetDate = new Date( isNumOrZero(inputYear), isNumOrZero(inputMonth), isNumOrZero(inputDate), isNumOrZero(inputHour), isNumOrZero(inputMin), isNumOrZero(inputSec) );
